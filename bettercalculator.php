@@ -6,9 +6,9 @@
   </head>
   <body>
     <form action ="bettercalculator.php" method ="post">
-      First number: <input type ="number" name ="num1">
+      First number: <input type ="number" step ="0.001" name ="num1">
       OPERATOR:<input type="textbox" name="op">
-      Second number: <input type ="number" name ="num2">
+      Second number: <input type ="number" step = "0.001" name ="num2">
       <input type ="submit">
 
     </form>
